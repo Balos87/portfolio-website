@@ -1,0 +1,104 @@
+.projectsCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    background-color: var(--color-primary);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.9);
+    transition: transform 0.2s;
+}
+
+.projectsCard p {
+    color: rgba(177, 177, 177, 0.699);
+    
+}
+
+.projectsCard:hover p {
+    color: rgb(255, 255, 255);
+}
+
+.projectsCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 1rem rgb(0, 238, 255);
+}
+.projectsCard:hover h3 {
+    color: rgb(0, 238, 255);
+}
+
+.projectButton {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: rgb(0, 255, 255);
+    text-transform: uppsercase;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+
+.projectButton:hover {
+    color: #255784;
+    border-radius: 10px;
+    font-weight: 900;
+    background: rgb(0, 255, 255);
+    box-shadow: 0 0 10px rgb(0, 255, 255), 0 0 20px rgb(0, 255, 255), 0 0 40px rgb(0, 255, 255);
+}
+
+.projectsCard:hover {
+    .projectButton {
+        background-color: rgb(0, 255, 255);
+        color: black;
+        letter-spacing: 4px;
+
+
+        /* color: #255784;
+        background: rgb(0, 255, 255);
+        box-shadow: 0 0 10px rgb(0, 255, 255), 0 0 20px rgb(0, 255, 255), 0 0 40px rgb(0, 255, 255); */
+    }
+}
+
+.projectsMainDiv {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--color-primary);
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.9);
+}
+
+.projectsMainDiv h2 {
+    color: rgb(0, 238, 255);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.projectsLoadingSpinner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 250px;
+    height: 250px;
+    background-color: var(--color-primary);
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.9);
+
+}
+
+.projectsLoadingSpinner h2 {
+    text-align: center;
+    color: rgb(0, 238, 255);
+    margin-bottom: 2rem;
+}

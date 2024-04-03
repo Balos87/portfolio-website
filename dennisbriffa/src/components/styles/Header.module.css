@@ -1,0 +1,41 @@
+.headerSpan {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  width: 400px;
+  z-index: 100;
+}
+
+.myName {
+  margin-top: 50px;
+}
+
+.myName,
+.myRole,
+.mySignatureNote {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'ABeeZee', sans-serif;
+  text-align: center;
+}
+
+.myName {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.myRole {
+  font-size: 1.5rem;
+}
+
+.mySignatureNote {
+  font-size: 1rem;
+}
+

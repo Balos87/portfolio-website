@@ -1,0 +1,103 @@
+.aButton.active {
+    /* --clr: #1e9bff; */
+    --clr: rgb(0, 255, 255);
+    background: var(--clr);
+    color: var(--clr);
+    /* letter-spacing: 0.25em; */
+    transform: scale(1.1);
+    box-shadow: 0 0 35px var(--clr);
+}
+
+.aButton {
+    position: relative;
+    background: #fff;
+    color: rgb(15 23 42);
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    transition: 0.3s;
+    font-weight: 800;
+
+}
+
+.aButton:hover {
+    /* --clr: #1e9bff; */
+    --clr: rgb(0, 255, 255);
+    background: var(--clr);
+    color: var(--clr);
+    /* transform: scale(1.1); */
+    box-shadow: 0 0 35px var(--clr);
+
+}
+
+.divven {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.aButton::before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
+}
+
+.aButton span {
+    position: relative;
+    z-index: 1;
+}
+
+.aButton i {
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+
+.aButton i::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 80%;
+    width: 10px;
+    height: 4px;
+    background: #27282c;
+    transform: translateX(-50%) skewX(325deg);
+    transition: 0.5s;
+}
+
+.aButton:hover i::before {
+    width: 20px;
+    left: 20%;
+}
+
+.aButton i::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    width: 10px;
+    height: 4px;
+    background: #27282c;
+    transform: translateX(-50%) skewX(325deg);
+    transition: 0.5s;
+}
+
+.aButton:hover i::after {
+    width: 20px;
+    left: 80%;
+}
+
+.aButton.active i::before {
+    width: 20px;
+    left: 20%;
+}
+
+.aButton.active i::after {
+    width: 20px;
+    left: 80%;
+}
