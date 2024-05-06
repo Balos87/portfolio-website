@@ -13,11 +13,11 @@ function Header() {
           </h1>
 
           <h2 className={styles.myRole}>
-            Fullstack Student
+            .NET Fullstack Studerande
           </h2>
 
           <h3 className={styles.mySignatureNote}>
-            I build fullstack projects, finding solutions to any problem is my passion.
+            Att finna lösningar till alla problem är min passion.
           </h3>
 
           <div>
@@ -25,7 +25,17 @@ function Header() {
           </div>
           <div>
             <section>
-              
+              <div className={styles.divSocialLogos}>
+                <a href="https://www.linkedin.com/in/dennisbriffa/">
+                  <img className={styles.socialLogo} src="/images/icons8-linkedin-50.png" alt="Linkedin link to my page" />
+                </a>
+                <a href="https://github.com/Balos87">
+                  <img className={styles.socialLogo} src="/images/icons8-github-50.png" alt="Github link to my repository" />
+                </a>
+                <a href="mailto:dennisbriffa87@gmail.com?subject=Contact from Website">
+                  <img className={styles.socialLogo} src="/images/icons8-email-50.png" alt="Email link to contant me thru email" />
+                </a>
+              </div>
             </section>
           </div>
         </header>

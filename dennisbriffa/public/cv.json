@@ -29,13 +29,11 @@
       ]
     },
     {
-      "about": "Eget på väg",
-      "level": "Sveriges Åkeriföretag",
-      "description": "Studerade för att driva ett åkeri inom tung-transport. Inriktning mot godstransporter med kranbil och ansvar för fordon, dom anställda, företagets juridiska agerande och den affärsmässiga ledningen.",
+      "about": "Trafikansvarig",
+      "level": "Kurs",
+      "description": "Studerade för att driva en verksamhet inom åkeribranschen.",
       "techstack": [
         "Bokföring & Bokslut",
-        "Budgetering & finansiering",
-        "Marknadsföring",
         "Arbetsgivarfrågor",
         "Yrkestrafiklagstiftning",
         "Försäkringsfrågor"
@@ -45,7 +43,7 @@
   "worked": [
     {
       "about": "Driftledare",
-      "level": "Proffesional",
+      "level": "Yrkesmässigt",
       "period": "2015-2022",
       "description": "Arbetade som driftledare på ett åkeri i Stockholm med övergripande ansvar för planering, drift och personal",
       "techstack": [
@@ -56,8 +54,8 @@
       ]
     },
     {
-      "about": "Systemadministratör",
-      "level": "Proffesional",
+      "about": "Systemadmin",
+      "level": "Yrkesmässigt",
       "period": "2015-2022",
       "description": "Ansvar för installation, drift och underhåll för åkeriets IT-system",
       "techstack": [
@@ -68,19 +66,13 @@
     },
     {
       "about": "Kranbilschaufför CE",
-      "level": "Proffesional",
+      "level": "Yrkesmässigt",
       "period": "2008-2015",
       "period2": "2022-2023",
-      "description": "Arbetat som kranbilschaufför i hela Stockholms län med lastbilsmonterad kran och lastväxlare. Väldigt varierande arbetsuppgifter med allt från byggmaterial till maskintransporter och kranlyft.",
+      "description": "Arbetat som kranbilschaufför i med lastbilsmonterad kran och lastväxlare.",
       "techstack": [
-        "35t/m kran",
-        "Tung lastbil med släp",
-        "Byggvaror",
-        "Maskintransporter",
-        "Byggbodtransporter",
-        "Med mera..."
+
       ]
     }
   ]
-  
 }

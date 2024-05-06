@@ -12,6 +12,14 @@
   z-index: 100;
 }
 
+@media (max-width: 850px) {
+  .headerSpan {
+    position: static;
+    width: 100%;
+    padding: 20px 10px;
+  }
+}
+
 .myName {
   margin-top: 50px;
 }
@@ -22,7 +30,7 @@
   display: flex;
   justify-content: center;
   color: white;
-  font-family: 'ABeeZee', sans-serif;
+  font-family: 'Poppins-Bold', sans-serif;
   text-align: center;
 }
 
@@ -39,3 +47,30 @@
   font-size: 1rem;
 }
 
+.socialLogo:hover {
+  --clr: rgb(0, 255, 255);
+  background: var(--clr);
+  box-shadow: 0 0 35px var(--clr);
+  text-decoration: none;
+  border-radius: 10px;
+  transform: rotate(360deg);
+  transition: 0.5s;
+
+}
+
+.socialLogo {
+  border-radius: 10px;
+  transition: 0.5s;
+  background-color: rgba(0, 204, 255, 0.288);
+  padding: 5px;
+  box-shadow: 0 0 20px rgb(0, 255, 255, 0.500);
+}
+
+.divSocialLogos {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+  border-radius: 30px;
+}

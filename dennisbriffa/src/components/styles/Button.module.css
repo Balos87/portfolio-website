@@ -1,9 +1,7 @@
 .aButton.active {
-    /* --clr: #1e9bff; */
     --clr: rgb(0, 255, 255);
     background: var(--clr);
     color: var(--clr);
-    /* letter-spacing: 0.25em; */
     transform: scale(1.1);
     box-shadow: 0 0 35px var(--clr);
 }
@@ -11,7 +9,7 @@
 .aButton {
     position: relative;
     background: #fff;
-    color: rgb(15 23 42);
+    color: rgb(255, 255, 255);
     font-family: sans-serif;
     text-decoration: none;
     text-transform: uppercase;
@@ -20,17 +18,14 @@
     padding: 10px 30px;
     transition: 0.3s;
     font-weight: 800;
-
 }
 
 .aButton:hover {
-    /* --clr: #1e9bff; */
     --clr: rgb(0, 255, 255);
     background: var(--clr);
     color: var(--clr);
-    /* transform: scale(1.1); */
     box-shadow: 0 0 35px var(--clr);
-
+    text-decoration: none;
 }
 
 .divven {

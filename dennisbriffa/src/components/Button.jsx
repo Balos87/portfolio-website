@@ -5,7 +5,7 @@ function Button() {
 
     return (
         <div className={styles.divven}>
-        <a href="#" className={styles.aButton}><span>Button</span><i></i></a>
+            <a href="#" className={styles.aButton}><span>Button</span><i></i></a>
         </div>
     );
 }

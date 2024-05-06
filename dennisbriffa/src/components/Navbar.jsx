@@ -3,9 +3,9 @@ import styles from './styles/Navbar.module.css';
 import buttonStyles from './styles/Button.module.css';
 
 const menuItems = [
-  { title: "About", path: "#about" },
-  { title: "Experience", path: "#experience" },
-  { title: "Projects", path: "#projects" },
+  { title: "Om", path: "#about" },
+  { title: "Erfarenhet", path: "#experience" },
+  { title: "Projekt", path: "#projects" },
 ];
 
 function NavbarButtonsWithSmoothScrollAndSectionFinder() {
