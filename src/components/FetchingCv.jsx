@@ -6,7 +6,7 @@ function FetchingAndDisplayingCv() {
   const [cv, setCv] = useState(null);
 
   useEffect(function () {
-    fetch('/cv.json')
+    fetch('/portfolio-website/cv.json')
       .then(function (response) {
         return response.json();
       })
