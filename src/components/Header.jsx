@@ -17,7 +17,7 @@ function Header() {
           </h2>
 
           <h3 className={styles.mySignatureNote}>
-            Att finna lösningar till alla problem är min passion.
+            Att finna lösningar till alla problem är min passion!
           </h3>
 
           <div>
